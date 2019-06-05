@@ -4,8 +4,8 @@ using namespace std;
 class Solution {
 public:
     string longestPalindrome(string s){
-    //###################最长公共子串解法####################### 
-    if(s==""){
+    //###################最长公共子串解法####################### 采用了一位数组减少空间 
+    /*if(s==""){
     	return s;
 	}
     string contrary=s;
@@ -40,7 +40,10 @@ public:
 		
 	}
 	
-	return s.substr(maxEnd-maxLen+1,maxLen);
+	return s.substr(maxEnd-maxLen+1,maxLen);*/
+	
+	
+	
     
 	}
 };
