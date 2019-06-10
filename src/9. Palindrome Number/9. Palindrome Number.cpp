@@ -11,7 +11,7 @@ public:
 		int pop=0;
 		while(x!=0){
 			pop=x%10;
-			if(rev>int(0x7fffffff)) return false;
+			if(rev>int(0x7fffffff)/10) return false;
 			rev=rev*10+pop;
 			x/=10;
 		}
