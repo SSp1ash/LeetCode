@@ -24,10 +24,9 @@ public:
 };
 int main(){
 	vector<int> height;
-	height.push_back(1);
-	height.push_back(2);
-	height.push_back(4);
-	height.push_back(3);
+	int x[7]={1,2,4,3};
+	height.clear();
+	height.insert(height.begin(),x,x+4);
 	Solution a;
 	cout<<a.maxArea(height);
 	
